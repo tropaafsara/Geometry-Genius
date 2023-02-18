@@ -34,3 +34,8 @@ document.getElementById('blog-btn').addEventListener('click',function(){
 })
 
 
+document.getElementById('rectangle-calculate').addEventListener('click', function(){
+    
+})
+
+
