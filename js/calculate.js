@@ -184,12 +184,24 @@ function randomColor() {
     return 'rgb(' + color.join(', ') + ')';
   } 
   
-let element = document.getElementById('p');
-  element.addEventListener('mouseenter', function(){
-    element.style.backgroundColor = randomColor();   
-  });
-  element.addEventListener('mouseleave', function(){
-    element.style.backgroundColor = '#FFFFFF';   
-  });
+
+function color(id){
+    let element = document.getElementById(id);
+    element.addEventListener('mouseenter', function(){
+        element.style.backgroundColor = randomColor();   
+      });
+      element.addEventListener('mouseleave', function(){
+        element.style.backgroundColor = '#FFFFFF';   
+      });
+}
+color('tri');
+color('rec');
+color('para');
+color('rho');
+color('penta');
+color('el');
+
+
+  
   
  
