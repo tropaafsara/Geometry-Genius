@@ -176,7 +176,7 @@ document.getElementById('blog-btn').addEventListener('click',function(){
 
 
 //random color
-/* function randomColor() {
+function randomColor() {
     let color = [];
     for (let i = 0; i < 3; i++) {
       color.push(Math.floor(Math.random() * 256));
@@ -184,11 +184,12 @@ document.getElementById('blog-btn').addEventListener('click',function(){
     return 'rgb(' + color.join(', ') + ')';
   } 
   
-
-  document.addEventListener("mouseover", function(){
-    let element = document.getElementById('p');
-    element.style.backgroundColor = randomColor();
-    
-  }); */
+let element = document.getElementById('p');
+  element.addEventListener('mouseenter', function(){
+    element.style.backgroundColor = randomColor();   
+  });
+  element.addEventListener('mouseleave', function(){
+    element.style.backgroundColor = '#FFFFFF';   
+  });
   
  
