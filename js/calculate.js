@@ -62,7 +62,7 @@ document.getElementById('rectangle-calculate').addEventListener('click', functio
 
     const areaCalc = document.getElementById('area-calc');
     const li = document.createElement('li');
-    li.innerText = 'Rectangle'+'      '+finalArea+'cm';
+    li.innerText = 'Rectangle'+'      '+finalArea+'cm2';
     areaCalc.appendChild(li);
 })
 //calculate area of parallelogram
@@ -84,7 +84,7 @@ document.getElementById('parallelogram-calculate').addEventListener('click', fun
 
     const areaCalc = document.getElementById('area-calc');
     const li = document.createElement('li');
-    li.innerText = 'Parallelogram'+'     '+finalArea+'cm';
+    li.innerText = 'Parallelogram'+'     '+finalArea+'cm2';
     areaCalc.appendChild(li);
 })
 //calculate area of rhombus
@@ -109,7 +109,7 @@ document.getElementById('rhombus-calculate').addEventListener('click', function(
     const areaCalc = document.getElementById('area-calc');
     
     const li = document.createElement('li');
-    li.innerText = 'Rhombus'+'       '+finalArea+'cm';
+    li.innerText = 'Rhombus'+'       '+finalArea+'cm2';
     areaCalc.appendChild(li);
     
   
@@ -136,7 +136,7 @@ document.getElementById('pentagon-calculate').addEventListener('click', function
     const areaCalc = document.getElementById('area-calc');
     
     const li = document.createElement('li');
-    li.innerText = 'Pentagon'+'        '+finalArea+'cm';
+    li.innerText = 'Pentagon'+'        '+finalArea+'cm2';
     areaCalc.appendChild(li);
     
   
@@ -162,7 +162,7 @@ document.getElementById('ellipse-calculate').addEventListener('click', function(
     
     const areaCalc = document.getElementById('area-calc');
     const li = document.createElement('li');
-    li.innerText = 'Ellipse'+'            '+finalArea+'cm';
+    li.innerText = 'Ellipse'+'            '+finalArea+'cm2';
     areaCalc.appendChild(li);
     
     
